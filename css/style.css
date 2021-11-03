@@ -1,21 +1,57 @@
+/* * {
+    background-color: #272626;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main-top {
+    background-image: url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 735px;
+}
+
 .header__menu-link {
     font-size: 16px;
     line-height: 20px;
+    color: #FFFFFF;
+}
+
+.header__menu-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#888888;
 }
 .header__content-title {
     font-weight: 600;
     font-size: 64px;
     line-height: 70px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 
 .header__content-slogan {
     font-size: 24px;
     line-height: 32px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
 }
 
 .header__content-link {
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF;
 }
 
 .header__content-subtitle {
@@ -25,27 +61,30 @@
     color: #000000;
 }
 
-.special_offer__title {
+.special_offer__title, .catalog__title {
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
     color: #000000;
+    margin-bottom: 32px;
 }
 
-.special_offer__subtitle {
+.special_offer__subtitle, .catalog__subtitle {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    margin-bottom: 8px;
 }
 
-.special_offer__description {
+.special_offer__description, .catalog__description {
     font-size: 14px;
     line-height: 17px;
     color: #888888;
+    margin-bottom: 12px;
 }
 
-.special_offer__final_priсe { 
+.special_offer__final_priсe, .catalog__price { 
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -64,7 +103,9 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    color: #000 
+    color: #000;
+    margin-bottom: 12px;
+
 }
 
 .footer__menu-link, .footer__phone, .footer__adress {
@@ -74,10 +115,16 @@
     color: #888888;
     text-decoration: none;
 }
+
+.footer__menu-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .footer__text {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
+    margin-bottom: 16px;
 }
 .footer__button {
     background: rgba(222, 215, 215, 0.41);
@@ -101,4 +148,8 @@
     font-size: 15px;
     line-height: 18px;
     color: #C4C4C4;
+}
+
+.catalog, .main-centr {
+    margin-top: 64px;
 }

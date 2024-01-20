@@ -140,7 +140,7 @@ line-height: 20px;
   gap: 32px;
 }
 
-.special_offer__title, .catalog__title, .for__title {
+.info_list__title, .for__title {
   font-weight: 600;
   font-size: 48px;
   line-height: 59px;
@@ -148,7 +148,7 @@ line-height: 20px;
   margin-bottom: 32px;
 }
 
-.special_offer__subtitle, .catalog__subtitle {
+.info_list__subtitle {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -156,7 +156,7 @@ line-height: 20px;
   margin-bottom: 8px;
 }
 
-.special_offer__description, .catalog__description {
+.info_list__description, .catalog__description {
   font-size: 20px;
   line-height: 22px;
   color: #888888;
@@ -164,21 +164,7 @@ line-height: 20px;
   width: 370px;
 }
 
-.special_offer__final_priсe, .catalog__price {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  color: #050505;
-}
 
-.special_offer__priсe {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #888888;
-}
 
 .footer {
   margin-top: 32px;
@@ -319,7 +305,13 @@ line-height: 20px;
   font-size: 15px;
   line-height: 18px;
   color: #000000;
+  cursor: pointer;
 }
+
+.footer__button:hover {
+  background: rgba(17, 17, 17, 0.41);
+  color: #ffffff;
+} 
 
 .footer__form-control {
   height: 46px;
@@ -334,14 +326,10 @@ line-height: 20px;
   font-size: 15px;
   line-height: 18px;
   color: #C4C4C4;
-  padding-right: 145px;
+  padding-right: 100px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 25px;
-}
-
-.catalog, .main-centr {
-  margin-top: 32px;
 }
 
 .form {
@@ -509,6 +497,11 @@ line-height: 20px;
   cursor: pointer;
 }
 
+.text-logo--footer {
+  font-size: 50px;
+  color: #080808;
+  font-family: 'Black Ops One', system-ui;
+}
 .cart__text {
   font-size: 16px;
   color: #000000;
@@ -589,67 +582,6 @@ line-height: 20px;
   font-size: 14px;
 }
 
-.page__special-offer_product-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 32px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.page__special-offer__title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 59px;
-  color: #000000;
-  margin-bottom: 32px;
-}
-
-.page__special-offer_product__subtitle {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  margin-bottom: 8px;
-}
-
-.page__special-offer_product__priсe {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #888888;
-}
-
-.page__special-offer_product__description {
-  font-size: 14px;
-  line-height: 17px;
-  color: #888888;
-  margin-bottom: 12px;
-  width: 370px;
-}
-
-.page__special-offer_product-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.page__special-offer_product__final_priсe {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  color: #050505;
-}
-
 .page__title {
   font-weight: 600;
   font-size: 64px;
@@ -657,64 +589,6 @@ line-height: 20px;
   color: #FFFFFF;
 }
 
-.box-prise {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 32px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.cart__link {
-  font-size: 14px;
-  color: #000000;
-}
-
-.cart__link:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: #000000;
-}
-
-.product__description {
-  font-size: 14px;
-  line-height: 17px;
-  color: #888888;
-  margin-bottom: 12px;
-  width: 276px;
-}
-
-.product__subtitle {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-  margin-bottom: 14px;
-}
-
-.product__priсe {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #050505;
-  padding-bottom: 14px;
-}
-
-.main__catalog {
-  background-image: url(../img/main__catalog.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
-  margin-bottom: 64px;
-}
 
 .for__content {
   display: -ms-grid;
@@ -780,7 +654,7 @@ line-height: 20px;
   .for__item {
     height: 265px;
   }
-  .special_offer__product-list {
+  .info_list__student {
     gap: 29px;
   }
   .catalog-box {

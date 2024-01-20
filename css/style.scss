@@ -117,46 +117,6 @@ flex-wrap: wrap;
 gap: 32px;
 }
 
-
-.special_offer__title, .catalog__title, .for__title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 59px;
-    color: #000000;
-    margin-bottom: 32px;
-}
-
-.special_offer__subtitle, .catalog__subtitle {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    margin-bottom: 8px;
-}
-
-.special_offer__description, .catalog__description {
-    font-size: 14px;
-    line-height: 17px;
-    color: #888888;
-    margin-bottom: 12px;
-    width: 370px;
-}
-
-.special_offer__final_priсe, .catalog__price { 
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #050505;
-}
-
-.special_offer__priсe { 
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    text-decoration-line: line-through;
-    color: #888888;
-}
-
 .footer {
     margin-top: 32px;
     height: 208px;
@@ -313,7 +273,7 @@ gap: 32px;
     color: #000000;
     
 }
-@import './_cart.scss';
-@import './_catalog.scss';
+
 @import './_for.scss';
 @import './_tablet.scss';
+@import './_modal.scss';

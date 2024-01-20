@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="modal.css">
+   <!-- шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
@@ -17,65 +19,77 @@
     <title>Школа №525</title>
 </head>
 <body>
+    <!-- шапка сайта -->
 <div class="main-top center">
     <header class="header">
         <a class="logo-container" href="index.html"><img src="./img/logo.png" alt=""><p class="text-logo">AK/RE</p> 
         </a> 
          <nav class="menu">
-             <a class="header__menu-link" href="catalog.html">О нас</a>
+             <a class="header__menu-link" href="#q">О нас</a>
              <a class="header__menu-link" href="https://525school.ru">Наша школа</a>
-             <a class="header__menu-link" onclick="enterBut()">Вход</a>
-             
+             <a class="header__menu-link" href="./modal.html">Вход</a>       
          </nav>
      </header>
+     <!-- основная информация -->
      <section class="header__content">
          <h1 class="header__content-title">Добро пожаловать на наш сайт!</h1>
-         <p class="header__content-slogan">Цель нашего сайта показать кто мы и что мы можем</p>
-         <a class="header__content-link" href="catalog.html">Перейти к списку нашей команды</a> 
+         <p class="header__content-slogan">Цель нашего сайта показать кто мы и что мы можем. Основные приемущества нашего сайта, заключаются в использовании Flexbox и grid, создание дизайна и работа в figma, адаптивность как для телефона так и для планшета, работа с препроцессором sсss, чистый код, БЭМ, использование веток в github и многое другое. Самая главная наша отличительная черта - это быстро адаптироваться и подстраиваться под ситуацию, видели бы вы нашу первую работу, вы бы не поверили (посмотреть на нее можно в повале сайта). Мы впервые попробуем свои силы в таком конкурсе, поэтому готовы на все 100%</p>
          </section>
 </div>
-
-    
+    <!-- информация о команде -->
 <div class="main-centr center">
-    <h2 class="special_offer__title">Наша команда</h2>
-<div class="special_offer__product-list flex-size ">
-        <div class="special_offer">
-        <img src="./img/vent.jpg" alt="VODA">
-        <h3 class="special_offer__subtitle">Алпатов Константин</h3>
-        <p class="special_offer__description">Косте 13 лет. Он учится в 7Г классе, занимается плаванием и обучается в музыкальной школе. В этом сайте работал над всем функционалом.</p>
+    <a name= "q"></a>
+    <h2 class="info_list__title">Наша команда</h2>
+<div class="info_list__student flex-size ">
+        <div class="info_list">
+        <img src="./img/vent.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Алпатов Константин</h3>
+        <p class="info_list__description">Косте 13 лет. Он учится в 7Г классе, занимается плаванием и обучается в музыкальной школе. В этом сайте работал над всем функционалом.</p>
 
     </div>
-    <div class="special_offer">
-        <img src="./img/art.jpg" alt="RONALD">
-        <h3 class="special_offer__subtitle">Сухов Егор</h3>
-        <p class="special_offer__description">Егору 12 лет, он учится в 6Д классе, занимается настольным теннисом, конструированием дронов и программированием</p>
+    <div class="info_list">
+        <img src="./img/art.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Сухов Егор</h3>
+        <p class="info_list__description">Егору 12 лет, он учится в 6Д классе, занимается настольным теннисом, конструированием дронов и программированием</p>
 
     </div>
-    <div class="special_offer">
-        <img src="./img/root.jpg" alt="VENT">
-        <h3 class="special_offer__subtitle">Савиук Арсений</h3>
-        <p class="special_offer__description">Мне 13 лет. Я учусь в 6Д классе, занимаюсь роботехнекой и юнити. В этом сайте работал над всем текстом.</p>
+    <div class="info_list">
+        <img src="./img/root.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Савиук Арсений</h3>
+        <p class="info_list__description">Мне 13 лет. Я учусь в 6Д классе, занимаюсь роботехнекой и юнити. В этом сайте работал над всем текстом.</p>
 
     </div>
-    <div class="special_offer">
-        <img src="./img/marvin.jpg" alt="VENT">
-        <h3 class="special_offer__subtitle">Доржин Роман</h3>
-        <p class="special_offer__description">Роме 13 лет, он учится в 6А классе, занимается робототехникой и программированием. В сайте помогал Косте с функционалом</p>
+    <div class="info_list">
+        <img src="./img/marvin.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Доржин Роман</h3>
+        <p class="info_list__description">Роме 13 лет, он учится в 6А классе, занимается робототехникой и программированием. В сайте помогал Косте с функционалом</p>
+
+    </div>
+    <div class="info_list">
+        <img src="./img/ruk.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Курышев В. B.</h3>
+        <p class="info_list__description">Учитель математики и информатики. Руководитель нашей команды. Ведет у нашей команды кружок по веб-разработке, с октября 2023 года.</p>
+
+    </div>
+    <div class="info_list">
+        <img src="./img/ee.jpg" alt="картинка">
+        <h3 class="info_list__subtitle">Иванова Елизавета</h3>
+        <p class="info_list__description">Дизайнер наших проектов. Елизовете 12 лет, она учится в 5 классе, увлекается графическим дизайном и рисованием.</p>
 
     </div>
     </div>
 </div>
-
+<!-- подвал сайта -->
 <footer class="footer center">
     <div class="footer__logo">
-    <img src="img/logo-f.png" alt="logo">
+        <p class="text-logo--footer">AK/RE</p>
 </div>
         <div class="footer__data">
             <div class="footer__menu">
     <h4 class="footer__title">Меню</h4>
     <a class ="footer__menu-link" href="index.html">Главная</a>
-    <a class ="footer__menu-link" href="catalog.html">Каталог</a>
-        <a class ="footer__menu-link" href="cart.html">Корзина</a>
+    <a class ="footer__menu-link" href="#q">О нас</a>
+        <a class ="footer__menu-link" href="./Site-for-Smart_Petersburg-by-525-school-main/main.html">Изначальный вариант сайта</a>
     </div>
     <div class="footer__contact">
         <h4 class="footer__title">Контакты</h4>
@@ -94,6 +108,7 @@
             <button class="footer__button">Подписаться</button>
         </form>
         </footer>
+        <script src="./modal.js"></script>
         <script src="./main.js"></script>
     </body>
 </html>

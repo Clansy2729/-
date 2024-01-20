@@ -8,110 +8,92 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Интерьер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <title>Школа №525</title>
 </head>
 <body>
-<div class="main-top">
+<div class="main-top center">
     <header class="header">
-        <a href="index.html"><img src="img/logo.svg" alt="logo">
-     </a> 
-         <input type="search">
-         <nav>
-             <a class="header__menu-link" href="catalog.html">Каталог</a>
-             <a class="header__menu-link" href="#">Корзина</a>
+        <a class="logo-container" href="index.html"><img src="./img/logo.png" alt=""><p class="text-logo">AK/RE</p> 
+        </a> 
+         <nav class="menu">
+             <a class="header__menu-link" href="catalog.html">О нас</a>
+             <a class="header__menu-link" href="https://525school.ru">Наша школа</a>
+             <a class="header__menu-link" onclick="enterBut()">Вход</a>
+             
          </nav>
      </header>
      <section class="header__content">
-         <h1 class="header__content-title">Всё, чего заслуживает ваш дом</h1>
-         <p class="header__content-slogan">Наша мебель — ваше отражение</p>
-         <a class="header__content-link" href="catalog.html">Перейти в каталог</a> 
+         <h1 class="header__content-title">Добро пожаловать на наш сайт!</h1>
+         <p class="header__content-slogan">Цель нашего сайта показать кто мы и что мы можем</p>
+         <a class="header__content-link" href="catalog.html">Перейти к списку нашей команды</a> 
          </section>
 </div>
-<div class="main-centr">
-    <h2 class="special_offer__title">Специальные предложения</h2>
-        <section class="special_offer">
-        <img src="./img/voda.jpg" alt="Люстра VODA">
-        <h3 class="special_offer__subtitle">Люстра VODA</h3>
-        <p class="special_offer__description">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
-        <p class="special_offer__final_priсe">45 000 руб.</p>
-        <p class="special_offer__priсe">67 000 руб.</p>
-    </section>
-    <section class="special_offer">
-        <img src="./img/ronald.jpg" alt="Диван RONALD">
-        <h3 class="special_offer__subtitle">Диван RONALD</h3>
-        <p class="special_offer__description">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
-        <p class="special_offer__final_priсe">156 000 руб.</p>
-        <p class="special_offer__priсe">198 000 руб.</p>
-    </section>
-    <section class="special_offer">
-        <img src="./img/vent.jpg" alt="Комод VENT">
-        <h3 class="special_offer__subtitle">Комод VENT</h3>
-        <p class="special_offer__description">Европейский дуб - отличается особой прочностью и стабильностью.</p>
-        <p class="special_offer__final_priсe">34 000 руб.</p>
-        <p class="special_offer__priсe">45 000 руб.</p>
-    </section>
+
+    
+<div class="main-centr center">
+    <h2 class="special_offer__title">Наша команда</h2>
+<div class="special_offer__product-list flex-size ">
+        <div class="special_offer">
+        <img src="./img/vent.jpg" alt="VODA">
+        <h3 class="special_offer__subtitle">Алпатов Константин</h3>
+        <p class="special_offer__description">Косте 13 лет. Он учится в 7Г классе, занимается плаванием и обучается в музыкальной школе. В этом сайте работал над всем функционалом.</p>
+
+    </div>
+    <div class="special_offer">
+        <img src="./img/art.jpg" alt="RONALD">
+        <h3 class="special_offer__subtitle">Сухов Егор</h3>
+        <p class="special_offer__description">Егору 12 лет, он учится в 6Д классе, занимается настольным теннисом, конструированием дронов и программированием</p>
+
+    </div>
+    <div class="special_offer">
+        <img src="./img/root.jpg" alt="VENT">
+        <h3 class="special_offer__subtitle">Савиук Арсений</h3>
+        <p class="special_offer__description">Мне 13 лет. Я учусь в 6Д классе, занимаюсь роботехнекой и юнити. В этом сайте работал над всем текстом.</p>
+
+    </div>
+    <div class="special_offer">
+        <img src="./img/marvin.jpg" alt="VENT">
+        <h3 class="special_offer__subtitle">Доржин Роман</h3>
+        <p class="special_offer__description">Роме 13 лет, он учится в 6А классе, занимается робототехникой и программированием. В сайте помогал Косте с функционалом</p>
+
+    </div>
+    </div>
 </div>
 
-<div class="catalog">
-    <h2 class="catalog__title">Каталог товаров</h2>
-    <section class="catalog__list">
-        <img src="./img/tatran.jpg" alt="Кровать TATRAN">
-        <h3 class="catalog__subtitle">Кровать TATRAN</h3>
-        <p class="catalog__description">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
-        <p class="catalog__price">120 000 руб.</p>
-    </section>
-    <section class="catalog__list">
-        <img src="./img/product1.jpg" alt="Кресло VILORA">
-        <h3 class="catalog__subtitle">Кресло VILORA</h3>
-        <p class="catalog__description">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань. </p>
-        <p class="catalog__price">21 000 руб.</p>
-    </section>
-    <section class="catalog__list">
-        <img src="./img/menu.jpg" alt="Стол MENU">
-        <h3 class="catalog__subtitle">Стол MENU</h3>
-        <p class="catalog__description">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
-        <p class="catalog__price">34 000 руб.</p>
-    </section>
-    <section class="catalog__list">
-        <img src="./img/askesta.jpg" alt="Кресло ASKESTA">
-        <h3 class="catalog__subtitle">Кресло ASKESTA</h3>
-        <p class="catalog__description">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен.</p>
-        <p class="catalog__price">68 000 руб.</p>
-    </section>
-    <section class="catalog__list">
-        <img src="./img/norman.jpg" alt="Стол NORMAN">
-        <h3 class="catalog__subtitle">Стол NORMAN</h3>
-        <p class="catalog__description">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки.</p>
-        <p class="catalog__price">40 000 руб.</p>
-    </section>
-    <section class="catalog__list">
-        <img src="./img/nastan.jpg" alt="Диван NASTAN">
-        <h3 class="catalog__subtitle">Диван NASTAN</h3>
-        <p class="catalog__description">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
-        <p class="catalog__price">80 000 руб.</p>
-    </section>
+<footer class="footer center">
+    <div class="footer__logo">
+    <img src="img/logo-f.png" alt="logo">
 </div>
-<footer class="footer">
-    <img src="img/logo.svg" alt="logo">
+        <div class="footer__data">
+            <div class="footer__menu">
     <h4 class="footer__title">Меню</h4>
     <a class ="footer__menu-link" href="index.html">Главная</a>
     <a class ="footer__menu-link" href="catalog.html">Каталог</a>
-        <a class ="footer__menu-link" href="#">Корзина</a>
+        <a class ="footer__menu-link" href="cart.html">Корзина</a>
+    </div>
+    <div class="footer__contact">
         <h4 class="footer__title">Контакты</h4>
-        <a class="footer__phone" href="#">+7 908 800 80 80</a>
-        <a class="footer__adress" href="#">help@interier.com</a>
-        <a href="#">
-        <img src="img/facebook.svg" alt="facebook">
-    </a>
-        <a href="#"><img src="img/inst.svg" alt="">
-        </a>
-    <a href="#"><img src="img/twitter.svg" alt="twitter">
-    </a>
-    <form action="#">
+        <a class="footer__phone" href="tel:+79003111398" >+7 900 311 13 98</a>
+        <a class="footer__adress" href="mailto: kraken2000abvgd@mail.ru">kraken2000abvgd@mail.ru</a>
+        <div class="footer__icons">
+            <a href="https://vk.com/club218246568"><img src="img/vk.png" alt="vk" width="30px" height="30px"></a>
+            <a href="https://web.telegram.org/k/#-4124370191"><img src="img/telegram.png" alt="telegram" width="30px" height="30px"></a>
+            <a href="https://github.com/Clansy2729/Site-for-Smart_Petersburg-by-525-school"><img src="img/github.png" alt="github" width="33px" height="33px"></a>
+</div>
+</div>
+</div>
+    <form class="footer__form" action="#">
             <p class="footer__text">Получайте наши новости и обновления</p>
-            <input class="footer__form-control" type="email">
+            <input class="footer__form-control" type="email" placeholder="Email Address">
             <button class="footer__button">Подписаться</button>
         </form>
         </footer>
+        <script src="./main.js"></script>
     </body>
 </html>

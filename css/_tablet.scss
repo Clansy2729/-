@@ -1,0 +1,30 @@
+@media (max-width: 1024px) {
+
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .for__content {
+        gap: 30px;
+    }
+    .for__item {
+        height: 265px;
+    }
+    .special_offer__product-list {
+        gap: 29px;
+    }
+    .catalog-box {
+        gap: 28px;
+    }
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 833px) {
+
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

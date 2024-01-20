@@ -1,0 +1,49 @@
+
+.for__content {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.for__item {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 415px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: $colorText;
+
+    &__big-size {
+        grid-column: span 6;
+    }
+    
+    &__small-size {
+        grid-column: span 4;
+    }
+       
+    &-1 {
+        background-image: url(../img/for__img/item-1.jpg);
+    }
+    
+    &-2 {
+        background-image: url(../img/for__img/item-2.jpg);
+     }
+    
+    &-3 {
+        background-image: url(../img/for__img/item-3.jpg);
+    }
+    
+    &-4 {
+        background-image: url(../img/for__img/item-4.jpg);
+    }
+    
+    &-5 {
+        background-image: url(../img/for__img/item-5.jpg);
+    }
+
+}
+
